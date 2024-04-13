@@ -1,0 +1,2 @@
+word, meaning, partOfSpeech
+abandon, to leave or desert, verb

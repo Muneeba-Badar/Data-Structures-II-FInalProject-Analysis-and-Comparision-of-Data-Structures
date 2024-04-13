@@ -1,0 +1,2 @@
+word, meaning, partOfSpeech
+baby, a very young child, noun

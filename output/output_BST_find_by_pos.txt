@@ -1,0 +1,18 @@
+word, meaning, partOfSpeech
+abandon, to leave or desert, verb
+absorb, to take in or soak up, verb
+abuse, to use something to bad effect or for a bad purpose, verb
+accelerate, to increase in rate, verb
+accept, to agree to receive or undertake something, verb
+accompany, to go somewhere with someone, verb
+accomplish, to achieve or complete successfully, verb
+accuse, to charge someone with an offense or crime, verb
+achieve, to successfully bring about or reach a desired objective or result, verb
+acknowledge, to accept or admit the existence or truth of something, verb
+acquire, to buy or obtain for oneself, verb
+beat, to strike or hit repeatedly, verb
+become, begin to be, verb
+begin, to start or commence, verb
+believe, accept that something is true especially without proof, verb
+belong, be the property of, verb
+bend, shape or force something straight into a curve or angle, verb
