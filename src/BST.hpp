@@ -10,6 +10,7 @@ struct Node
     Node* right;
     string key;
     int height;
+    int p; //priority for treaps
     vector<int> indices;
     Node(string k, int i);
 };
@@ -20,8 +21,8 @@ class BSTIndex
         Node* insertHelper(Node*& node, const string& key, const int i);
     protected:
         vector<int> searchHelper(Node* node, const string& Key);
-    public:
         Node* root;
+    public:
         BSTIndex();
         void CreateIndex(vector<FileSystemEntry> &Data, const string &IndexType);
         virtual void Add(const int i, const string &Key);

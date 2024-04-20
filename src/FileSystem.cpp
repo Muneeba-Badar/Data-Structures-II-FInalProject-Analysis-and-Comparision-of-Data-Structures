@@ -19,15 +19,15 @@ void FileSystem::LoadFiles(const string &txtFile)
     }
     string line;
     getline(file, line); // Skip header
-    while (std::getline(file, line)) {
+    while (getline(file, line)) 
+    {
         stringstream ss(line);
         FileSystemEntry entry;
-        std::getline(ss, entry.word, ',');
-        std::getline(ss, entry.meaning, ',');
-        std::getline(ss, entry.partOfSpeech, ',');
+        getline(ss, entry.word, ',');
+        getline(ss, entry.meaning, ',');
+        getline(ss, entry.partOfSpeech, ',');
 
         // ss.ignore();
-        // getline(ss, entry.path, ',');
         entries.push_back(entry);
     }
 

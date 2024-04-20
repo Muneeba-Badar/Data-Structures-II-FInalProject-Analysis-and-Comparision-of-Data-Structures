@@ -1,7 +1,7 @@
 // Provide your implementation for the BSTIndex class here
 #include "BST.hpp"
 BSTIndex::BSTIndex() : root(nullptr) {}
-Node::Node(string k, int i) : key(k), left(nullptr), right(nullptr){
+Node::Node(string k, int i) : key(k), left(nullptr), right(nullptr), height(0){
     indices.push_back(i);
 }
 

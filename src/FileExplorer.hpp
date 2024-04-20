@@ -5,7 +5,7 @@
 #include "FileSystem.hpp"
 #include "AVL.hpp"
 #include "BST.hpp"
-
+#include "Treaps.hpp"
 #include <iostream>
 #include <vector>
 #include <string>

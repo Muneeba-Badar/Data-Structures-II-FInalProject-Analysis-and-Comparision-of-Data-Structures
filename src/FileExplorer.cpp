@@ -14,6 +14,10 @@ FileExplorer::FileExplorer(const string &type, const string &txtFile)
         WordIndex = new AVLIndex();
         POSIndex = new AVLIndex();
     }
+    else if (type == "Treap") {
+        WordIndex = new Treaps();
+        POSIndex = new Treaps();
+    }
     // Create indexes on word and POS
     WordIndex->CreateIndex(fs->entries, "word");
     POSIndex->CreateIndex(fs->entries, "partOfSpeech");
