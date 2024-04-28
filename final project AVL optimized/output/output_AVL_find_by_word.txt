@@ -1,0 +1,2 @@
+word, meaning, partOfSpeech
+funeral, a ceremony at which a dead person is buried or cremated, noun
